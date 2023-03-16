@@ -32,7 +32,7 @@
 	<?php popularfx_post_thumbnail(); ?>
 	<h1>Experince Explore Engage</h1>
 </div>
-	<div class="entry-content">
+	
 		<?php
 		the_content(
 			sprintf(
@@ -56,7 +56,7 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
+	<!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php popularfx_entry_footer(); ?>
