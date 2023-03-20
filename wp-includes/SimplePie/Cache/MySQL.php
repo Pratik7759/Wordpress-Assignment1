@@ -46,8 +46,8 @@
  *
  * Registered for URLs with the "mysql" protocol
  *
- * For example, `mysql://root:password@localhost:3307/mydb?prefix=sp_` will
- * connect to the `mydb` database on `localhost` on port 3307, with the user
+ * For example, `mysql://root:password@localhost:3308/mydb?prefix=sp_` will
+ * connect to the `mydb` database on `localhost` on port 3308, with the user
  * `root` and the password `password`. All tables will be prefixed with `sp_`
  *
  * @package SimplePie
@@ -89,7 +89,7 @@ class SimplePie_Cache_MySQL extends SimplePie_Cache_DB
 			'user' => null,
 			'pass' => null,
 			'host' => '127.0.0.1',
-			'port' => '3307',
+			'port' => '3308',
 			'path' => '',
 			'extras' => array(
 				'prefix' => '',
